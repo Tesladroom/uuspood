@@ -1,0 +1,45 @@
+
+.cart{
+    padding:1em 1em;
+    background: #343A40;
+    color: #eaebeb;
+    width: 1em;
+    transition: width 1s;
+}
+
+.cart h2{
+    margin : 1rem 0 ;
+    padding: 0;
+}
+
+.cart ul{
+    margin : 0;
+    padding: 0 0 0 1rem ;
+}
+
+.cart ul li{
+    margin : 1rem 0;
+}
+
+.cart p{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.cart.is-open{
+    width: 10em;
+    transition: width 1s;
+}
+
+
+.panier{
+    opacity: 0;
+    width: 10em;
+    transition: opacity 1s;
+}
+
+.is-open .panier{
+    opacity: 1;
+    transition: opacity 1s 0.5s;
+}
+

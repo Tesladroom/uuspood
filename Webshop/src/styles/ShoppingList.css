@@ -1,0 +1,29 @@
+.shoppingList{
+    background-color: white;
+    flex : auto;
+    margin: 0 0 0 0;
+}
+
+h2{
+    margin:1em 0 0 20px;
+}
+
+.product-list{
+    margin: 0 0em 2em 0em;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+   
+    justify-content: space-evenly;
+
+    display : grid;
+    grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
+    gap: 2em;
+
+}
+
+.product{
+    list-style: none;
+}

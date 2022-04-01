@@ -1,0 +1,28 @@
+.category{
+    margin: 20px;
+    display: flex;
+}
+
+.category select{
+    margin: 0 0.5em 0 1em;
+    width: 15em;
+    background: #343A40;;
+    color: #eaebeb;
+    font-size: 15px;
+    text-transform: capitalize;
+    border: white;
+    outline: none;
+    border-radius: 7px;
+    padding: 0.2em 0 0.2em 1em ;
+}
+
+.title-select{
+    font-weight: 600;
+}
+
+#reset-category{
+    background: #343A40;;
+    color: #eaebeb;
+    border:none;
+    border-radius: 5px;
+}

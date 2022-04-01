@@ -1,0 +1,14 @@
+.rating{
+    color: gray;
+    /* display: block; */
+    text-align: left;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;    
+}
+
+.star{
+    color: #FFD166;
+    word-spacing: -0.4em;
+}
